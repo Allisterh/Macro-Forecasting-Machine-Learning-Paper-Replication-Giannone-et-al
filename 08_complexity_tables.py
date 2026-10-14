@@ -129,7 +129,7 @@ for directory in [
 VALIDATION_START = pd.Timestamp("1980-01-01")
 VALIDATION_END = pd.Timestamp("1999-12-01")
 TEST_START = pd.Timestamp("2000-01-01")
-TEST_END = pd.Timestamp("2024-01-01")
+TEST_END = pd.Timestamp("2019-12-01")
 
 QUANTILES = [0.05, 0.10, 0.25, 0.50, 0.75, 0.90, 0.95]
 TARGET_R_GRID = [round(value, 1) for value in np.arange(0.1, 1.01, 0.1)]

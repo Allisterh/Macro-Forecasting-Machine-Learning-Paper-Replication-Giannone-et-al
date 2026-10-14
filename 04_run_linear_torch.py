@@ -71,7 +71,7 @@ tau = float(args.quantile)
 VALIDATION_START = "1980-01-01"
 VALIDATION_END = "1999-12-01"
 TEST_START = "2000-01-01"
-TEST_END = "2024-01-01"
+TEST_END = "2019-12-01"
 
 # Paper-style 40-point log-spaced lambda grid.
 LAMBDA_GRID = np.exp(

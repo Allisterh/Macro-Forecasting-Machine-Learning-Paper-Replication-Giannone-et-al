@@ -18,7 +18,7 @@ QUANTILES = [0.05, 0.25, 0.50, 0.75, 0.95]
 
 VALIDATION_START = pd.Timestamp("1980-01-01")
 TEST_START = pd.Timestamp("2000-01-01")
-PLOT_END = pd.Timestamp("2024-01-01")
+PLOT_END = pd.Timestamp("2019-12-01")
 
 ZOOM_Y_MIN = -2.0
 ZOOM_Y_MAX = 2.0
